@@ -9,26 +9,89 @@
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home","Index","Home")
-                    </li>
-                    <li></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <div id="menu" class="container-fluid">
+        <div class="row">
+            <div class="navbar navbar-inverse">
+                <div class="navbar-header col-lg-4 col-md-12">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#soccer-menu" aria-expanded="true">
 
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <ul class="menu-buttons visible-md-inline-block tablet-menu-button pull-right">
+                        <li><a href="#" class="btn btn-primary">Register to Play</a></li>
+                        <li><a href="#" class="btn btn-default">Organiser Login</a></li>
+                    </ul>
+                    <a class="navbar-brand" href="#">
+                        <!--Super <span class="green-text">6</span> Soccer-->
+                        <img src="http://www.super6soccer.com.au/getmedia/6de04f7c-6423-4a0c-a5eb-34dc9b7ea83d/SUper6--logo-text.aspx" alt="super 6 soccer"
+                             class="site-text" />
+                        <img src="http://www.super6soccer.com.au/getmedia/ae51c6f7-4951-4313-8788-0686433b9e0c/S6S-logo-new2.aspx"
+                             alt="super 6 soccer" id="site-logo" class="site-logo">
+                    </a>
+                </div>
+
+                <div class="navbar-collapse collapse in" id="soccer-menu" aria-expanded="true">
+                    <ul class="nav navbar-right menu-buttons hidden-md">
+                        <li><a href="#" class="btn btn-primary">Register to Play</a></li>
+                        <li><a href="#" class="btn btn-default">Organiser Login</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li class="menu-item active">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations <span class="caret"></span></a>
+                            <ul class="dropdown-menu ">
+                                <li>
+                                    <a href="#" class="hidden-xs">Croydon</a>
+                                    <div class="dropdown visible-xs-block">
+                                        <a class="dropdown-submenu">Croydon<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Comp Dates</a></li>
+                                            <li><a href="#">Days And Times</a></li>
+                                            <li><a href="#">Registration Fees</a></li>
+                                            <li><a href="#">Venue Location</a></li>
+                                            <li><a href="#">Team Registration</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="hidden-xs">The Hills</a>
+                                    <div class="dropdown visible-xs-block">
+                                        <a class="dropdown-submenu">The Hills<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Comp Dates</a></li>
+                                            <li><a href="#">Days And Times</a></li>
+                                            <li><a href="#">Registration Fees</a></li>
+                                            <li><a href="#">Venue Location</a></li>
+                                            <li><a href="#">Team Registration</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="hidden-xs">Maroubra</a>
+                                    <div class="dropdown visible-xs-block">
+                                        <a class="dropdown-submenu">Maroubra<span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Comp Dates</a></li>
+                                            <li><a href="#">Days And Times</a></li>
+                                            <li><a href="#">Registration Fees</a></li>
+                                            <li><a href="#">Venue Location</a></li>
+                                            <li><a href="#">Team Registration</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item"><a href="#">About </a></li>
+                        <li class="menu-item"><a href="#">Result</a></li>
+                        <li class="menu-item"><a href="#">Find Team Mates </a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>    
+    </div>
     <div class="container body-content">
         @RenderBody()
         <hr />

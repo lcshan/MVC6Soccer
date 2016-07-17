@@ -27,11 +27,9 @@ D:\dev\Super6MVC\Super6MVC\bin\System.Web.Webpages.dll
 D:\dev\Super6MVC\Super6MVC\bin\System.Web.Webpages.Razor.dll
 D:\dev\Super6MVC\Super6MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\dev\Super6MVC\Super6MVC\bin\System.Web.Razor.xml
-D:\dev\Super6MVC\Super6MVC\bin\System.Web.Webpages.xml
 D:\dev\Super6MVC\Super6MVC\bin\System.Web.Webpages.Deployment.xml
 D:\dev\Super6MVC\Super6MVC\bin\System.Web.Webpages.Razor.xml
 D:\dev\Super6MVC\Super6MVC\bin\System.Web.Helpers.xml
-D:\dev\Super6MVC\Super6MVC\bin\System.Web.Mvc.xml
 D:\dev\Super6MVC\Super6MVC\bin\Newtonsoft.Json.xml
 D:\dev\Super6MVC\Super6MVC\bin\System.Net.Http.Formatting.xml
 D:\dev\Super6MVC\Super6MVC\bin\System.Web.Http.xml
@@ -39,3 +37,5 @@ D:\dev\Super6MVC\Super6MVC\bin\System.Web.Http.WebHost.xml
 D:\dev\Super6MVC\Super6MVC\obj\Debug\Super6MVC.csprojResolveAssemblyReference.cache
 D:\dev\Super6MVC\Super6MVC\obj\Debug\Super6MVC.dll
 D:\dev\Super6MVC\Super6MVC\obj\Debug\Super6MVC.pdb
+D:\dev\Super6MVC\Super6MVC\bin\System.Web.Webpages.xml
+D:\dev\Super6MVC\Super6MVC\bin\System.Web.Mvc.xml
